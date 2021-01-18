@@ -1,0 +1,236 @@
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\bin\Antlr3.Runtime.dll
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\bin\Newtonsoft.Json.dll
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\bin\System.Web.Helpers.dll
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\bin\System.Web.Mvc.dll
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\bin\System.Web.Optimization.dll
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\bin\System.Web.Razor.dll
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.dll
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\bin\System.Web.WebPages.dll
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.dll
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\bin\WebGrease.dll
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\bin\System.Web.Helpers.xml
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\bin\System.Web.Mvc.xml
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\bin\System.Web.Optimization.xml
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\bin\System.Web.Razor.xml
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\bin\System.Web.WebPages.xml
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.xml
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.xml
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\bin\Antlr3.Runtime.pdb
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\bin\Newtonsoft.Json.xml
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\obj\Debug\PaladinInsurance.csprojResolveAssemblyReference.cache
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\bin\EntityFramework.dll
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\bin\EntityFramework.SqlServer.dll
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\bin\EntityFramework.xml
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\bin\EntityFramework.SqlServer.xml
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\bin\Ninject.dll
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\bin\Ninject.Web.Common.dll
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\bin\Ninject.Web.Mvc.dll
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\bin\WebActivatorEx.dll
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\bin\Ninject.xml
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\bin\Ninject.Web.Common.xml
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\bin\Ninject.Web.Mvc.xml
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\bin\AutoMapper.dll
+C:\Pluralsight\Courses\Improving MVC\Paladin MVC Project\WebApplication1\WebApplication1\bin\AutoMapper.xml
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\bin\WebApplication1.dll.config
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\bin\WebApplication1.dll
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\bin\WebApplication1.pdb
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\bin\Antlr3.Runtime.dll
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\bin\AutoMapper.dll
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\bin\EntityFramework.dll
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\bin\EntityFramework.SqlServer.dll
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\bin\Microsoft.Web.Infrastructure.dll
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\bin\Newtonsoft.Json.dll
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\bin\Ninject.dll
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\bin\Ninject.Web.Common.dll
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\bin\Ninject.Web.Mvc.dll
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\bin\System.Web.Helpers.dll
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\bin\System.Web.Mvc.dll
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\bin\System.Web.Optimization.dll
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\bin\System.Web.Razor.dll
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\bin\System.Web.WebPages.Deployment.dll
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\bin\System.Web.WebPages.dll
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\bin\System.Web.WebPages.Razor.dll
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\bin\WebActivatorEx.dll
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\bin\WebGrease.dll
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\bin\AutoMapper.xml
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\bin\EntityFramework.xml
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\bin\EntityFramework.SqlServer.xml
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\bin\Ninject.xml
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\bin\Ninject.Web.Common.xml
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\bin\Ninject.Web.Mvc.xml
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\bin\System.Web.Helpers.xml
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\bin\System.Web.Mvc.xml
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\bin\System.Web.Optimization.xml
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\bin\System.Web.Razor.xml
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\bin\System.Web.WebPages.xml
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\bin\System.Web.WebPages.Deployment.xml
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\bin\System.Web.WebPages.Razor.xml
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\bin\Antlr3.Runtime.pdb
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\bin\Newtonsoft.Json.xml
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\obj\Debug\WebApplication1.dll
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\obj\Debug\WebApplication1.pdb
+C:\Pluralsight\Courses\Improving MVC\Starting Paladin MVC Project\Paladin\Paladin\obj\Debug\PaladinInsurance.csprojResolveAssemblyReference.cache
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\bin\WebApplication1.dll.config
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\bin\WebApplication1.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\bin\WebApplication1.pdb
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\bin\Antlr3.Runtime.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\bin\AutoMapper.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\bin\EntityFramework.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\bin\EntityFramework.SqlServer.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\bin\Microsoft.Web.Infrastructure.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\bin\Newtonsoft.Json.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\bin\Ninject.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\bin\Ninject.Web.Common.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\bin\Ninject.Web.Mvc.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\bin\System.Web.Helpers.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\bin\System.Web.Mvc.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\bin\System.Web.Optimization.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\bin\System.Web.Razor.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\bin\System.Web.WebPages.Deployment.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\bin\System.Web.WebPages.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\bin\System.Web.WebPages.Razor.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\bin\WebActivatorEx.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\bin\WebGrease.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\bin\AutoMapper.xml
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\bin\EntityFramework.xml
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\bin\EntityFramework.SqlServer.xml
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\bin\Ninject.xml
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\bin\Ninject.Web.Common.xml
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\bin\Ninject.Web.Mvc.xml
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\bin\System.Web.Helpers.xml
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\bin\System.Web.Mvc.xml
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\bin\System.Web.Optimization.xml
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\bin\System.Web.Razor.xml
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\bin\System.Web.WebPages.xml
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\bin\System.Web.WebPages.Deployment.xml
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\bin\System.Web.WebPages.Razor.xml
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\bin\Antlr3.Runtime.pdb
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\bin\Newtonsoft.Json.xml
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\obj\Debug\PaladinInsurance.csprojResolveAssemblyReference.cache
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\obj\Debug\WebApplication1.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m2\Demos\End\Starting Paladin MVC Project\Paladin\Paladin\obj\Debug\WebApplication1.pdb
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\bin\WebApplication1.dll.config
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\bin\WebApplication1.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\bin\WebApplication1.pdb
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\bin\Antlr3.Runtime.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\bin\AutoMapper.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\bin\EntityFramework.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\bin\EntityFramework.SqlServer.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\bin\Microsoft.Web.Infrastructure.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\bin\Newtonsoft.Json.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\bin\Ninject.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\bin\Ninject.Web.Common.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\bin\Ninject.Web.Mvc.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\bin\System.Web.Helpers.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\bin\System.Web.Mvc.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\bin\System.Web.Optimization.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\bin\System.Web.Razor.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\bin\System.Web.WebPages.Deployment.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\bin\System.Web.WebPages.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\bin\System.Web.WebPages.Razor.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\bin\WebActivatorEx.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\bin\WebGrease.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\bin\AutoMapper.xml
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\bin\EntityFramework.xml
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\bin\EntityFramework.SqlServer.xml
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\bin\Ninject.xml
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\bin\Ninject.Web.Common.xml
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\bin\Ninject.Web.Mvc.xml
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\bin\System.Web.Helpers.xml
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\bin\System.Web.Mvc.xml
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\bin\System.Web.Optimization.xml
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\bin\System.Web.Razor.xml
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\bin\System.Web.WebPages.xml
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\bin\System.Web.WebPages.Deployment.xml
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\bin\System.Web.WebPages.Razor.xml
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\bin\Antlr3.Runtime.pdb
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\bin\Newtonsoft.Json.xml
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\obj\Debug\PaladinInsurance.csprojResolveAssemblyReference.cache
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\obj\Debug\WebApplication1.dll
+C:\Pluralsight\Courses\Improving MVC\mvc-applications-10-extension-points-improving-m3\demos\start\Paladin MVC Project\Paladin\Paladin\obj\Debug\WebApplication1.pdb
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\bin\WebApplication1.dll.config
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\bin\WebApplication1.dll
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\bin\WebApplication1.pdb
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\bin\Antlr3.Runtime.dll
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\bin\AutoMapper.dll
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\bin\EntityFramework.dll
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\bin\EntityFramework.SqlServer.dll
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\bin\Microsoft.Web.Infrastructure.dll
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\bin\Newtonsoft.Json.dll
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\bin\Ninject.dll
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\bin\Ninject.Web.Common.dll
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\bin\Ninject.Web.Mvc.dll
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\bin\System.Web.Helpers.dll
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\bin\System.Web.Mvc.dll
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\bin\System.Web.Optimization.dll
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\bin\System.Web.Razor.dll
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\bin\System.Web.WebPages.Deployment.dll
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\bin\System.Web.WebPages.dll
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\bin\System.Web.WebPages.Razor.dll
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\bin\WebActivatorEx.dll
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\bin\WebGrease.dll
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\bin\AutoMapper.xml
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\bin\EntityFramework.xml
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\bin\EntityFramework.SqlServer.xml
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\bin\Ninject.xml
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\bin\Ninject.Web.Common.xml
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\bin\Ninject.Web.Mvc.xml
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\bin\System.Web.Helpers.xml
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\bin\System.Web.Mvc.xml
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\bin\System.Web.Optimization.xml
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\bin\System.Web.Razor.xml
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\bin\System.Web.WebPages.xml
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\bin\System.Web.WebPages.Deployment.xml
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\bin\System.Web.WebPages.Razor.xml
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\bin\Antlr3.Runtime.pdb
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\bin\Newtonsoft.Json.xml
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\obj\Debug\PaladinInsurance.csprojResolveAssemblyReference.cache
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\obj\Debug\WebApplication1.dll
+C:\Pluralsight\Courses\Improving MVC\Review\demos\demos\start\Paladin MVC Project\Paladin\Paladin\obj\Debug\WebApplication1.pdb
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\bin\WebApplication1.dll.config
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\bin\WebApplication1.dll
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\bin\WebApplication1.pdb
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\bin\Antlr3.Runtime.dll
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\bin\AutoMapper.dll
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\bin\EntityFramework.dll
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\bin\EntityFramework.SqlServer.dll
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\bin\Newtonsoft.Json.dll
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\bin\Ninject.dll
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\bin\Ninject.Web.Common.dll
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\bin\Ninject.Web.Mvc.dll
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\bin\System.Web.Helpers.dll
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\bin\System.Web.Mvc.dll
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\bin\System.Web.Optimization.dll
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\bin\System.Web.Razor.dll
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\bin\System.Web.WebPages.dll
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\bin\System.Web.WebPages.Razor.dll
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\bin\WebActivatorEx.dll
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\bin\WebGrease.dll
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\bin\AutoMapper.xml
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\bin\EntityFramework.xml
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\bin\EntityFramework.SqlServer.xml
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\bin\Ninject.xml
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\bin\Ninject.Web.Common.xml
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\bin\Ninject.Web.Mvc.xml
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\bin\System.Web.Helpers.xml
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\bin\System.Web.Mvc.xml
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\bin\System.Web.Optimization.xml
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\bin\System.Web.Razor.xml
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\bin\System.Web.WebPages.xml
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\bin\System.Web.WebPages.Razor.xml
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\bin\Antlr3.Runtime.pdb
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\bin\Newtonsoft.Json.xml
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\obj\Debug\PaladinInsurance.csprojAssemblyReference.cache
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\obj\Debug\PaladinInsurance.csproj.CoreCompileInputs.cache
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\obj\Debug\PaladinInsurance.csproj.CopyComplete
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\obj\Debug\WebApplication1.dll
+C:\Users\Stephanie\Desktop\Projects\Paladin\Paladin\obj\Debug\WebApplication1.pdb
