@@ -40,7 +40,7 @@ namespace Paladin.Infrastructure
 
         public static string GetValue(object item, string propName)
         {
-            return item.GetType().GetProperty(propName).GetValue(item, null).ToString() ?? "";
+            return item.GetType().GetProperty(propName)?.GetValue(item, null).ToString() ?? "";
         }
     }
 }
