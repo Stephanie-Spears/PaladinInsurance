@@ -12,26 +12,26 @@ using System.Xml.Serialization;
 
 namespace Paladin.Controllers
 {
-    public class ServiceController : Controller
-    {
-        private PaladinDbContext _context;
+	public class ServiceController : Controller
+	{
+		private PaladinDbContext _context;
 
-        public ServiceController()
-        {
-            _context = new PaladinDbContext();
-        }
+		public ServiceController()
+		{
+			_context = new PaladinDbContext();
+		}
 
-        public ActionResult GetApplicantsForReminders()
-        {
-            var applicants = _context.Applicants.ToList();
-            var vmApplicants = new List<ApplicantVM>();
-            foreach(var app in applicants)
-            {
-                vmApplicants.Add(Mapper.Map<ApplicantVM>(app));
-            }
+		public ActionResult GetApplicantsForReminders()
+		{
+			var applicants = _context.Applicants.ToList();
+			var vmApplicants = new List<ApplicantVM>();
+			foreach(var app in applicants)
+			{
+				vmApplicants.Add(Mapper.Map<ApplicantVM>(app));
+			}
 
-            return new XMLResult(vmApplicants);
-        }
+			return new XMLResult(vmApplicants);
+		}
 
-    }
+	}
 }

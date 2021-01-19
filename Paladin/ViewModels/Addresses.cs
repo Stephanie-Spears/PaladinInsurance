@@ -6,9 +6,9 @@ using System.Web;
 
 namespace Paladin.ViewModels
 {
-    public class Addresses
-    {
-        public AddressVM MainAddress { get; set; }
-        public AddressVM MailingAddress { get; set; }
-    }
+	public class Addresses
+	{
+		public AddressVM MainAddress { get; set; }
+		public AddressVM MailingAddress { get; set; }
+	}
 }

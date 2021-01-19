@@ -1,8 +1,11 @@
 ﻿using AutoMapper;
+using Paladin.Infrastructure;
 using Paladin.Models;
 using Paladin.ViewModels;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
+using System.Diagnostics;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -11,26 +14,37 @@ using System.Web.Routing;
 
 namespace Paladin
 {
-    public class MvcApplication : System.Web.HttpApplication
-    {
-        protected void Application_Start()
-        {
-            AreaRegistration.RegisterAllAreas();
-            FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
-            RouteConfig.RegisterRoutes(RouteTable.Routes);
-            BundleConfig.RegisterBundles(BundleTable.Bundles);
+	public class MvcApplication : System.Web.HttpApplication
+	{
+		protected void Application_Start()
+		{
+			if (!string.IsNullOrEmpty(ConfigurationManager.AppSettings["ActiveTheme"]))
+			{
+				var activeTheme = ConfigurationManager.AppSettings["ActiveTheme"];
+				ViewEngines.Engines.Insert(0, new ThemeViewEngine(activeTheme));
+			};
 
-            Mapper.CreateMap<ApplicantVM, Applicant>();
-            Mapper.CreateMap<VehicleVM, Vehicle>();
-            Mapper.CreateMap<AddressVM, Address>();
-            Mapper.CreateMap<EmploymentVM, Employment>();
-            Mapper.CreateMap<ProductsVM, Products>();
+			AreaRegistration.RegisterAllAreas();
+			FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
+			RouteConfig.RegisterRoutes(RouteTable.Routes);
+			BundleConfig.RegisterBundles(BundleTable.Bundles);
 
-            Mapper.CreateMap<Applicant, ApplicantVM>();
-            Mapper.CreateMap<Vehicle, VehicleVM>();
-            Mapper.CreateMap<Address, AddressVM>();
-            Mapper.CreateMap<Employment, EmploymentVM>();
-            Mapper.CreateMap<Products, ProductsVM>();
-        }
-    }
+			Mapper.CreateMap<ApplicantVM, Applicant>();
+			Mapper.CreateMap<VehicleVM, Vehicle>();
+			Mapper.CreateMap<AddressVM, Address>();
+			Mapper.CreateMap<EmploymentVM, Employment>();
+			Mapper.CreateMap<ProductsVM, Products>();
+
+			Mapper.CreateMap<Applicant, ApplicantVM>();
+			Mapper.CreateMap<Vehicle, VehicleVM>();
+			Mapper.CreateMap<Address, AddressVM>();
+			Mapper.CreateMap<Employment, EmploymentVM>();
+			Mapper.CreateMap<Products, ProductsVM>();
+		}
+
+		void Application_Error()
+		{
+			Debug.WriteLine("test");
+		}
+	}
 }
