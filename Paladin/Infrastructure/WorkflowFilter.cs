@@ -22,6 +22,7 @@ using Paladin.Models;
  * Request->OnActionExecuting[(Active Session ?) ->YES-> (Completed Minimum Required Stage ?) ] -> [Action Method] -> OnActionExecuted[(Update Database with Workflow Status)] => Request
  * Request -> OnActionExecuting [ (Active Session ?) -> YES -> (Completed Minimum Required Stage?) ] -> NO => Redirect to Last Completed Page
  * Request -> OnActionExecuting [ (Active Session ?)] -> NO => Redirect To First Page
+ *
  * */
 
 
@@ -38,9 +39,10 @@ namespace Paladin.Infrastructure
 
 
 
-		/*		 * Three main steps:
-				 * The first issue we want to solve is to check whether the user has an active session(which is set in our Action Method the first time they save anything to the database for the "Get a Quote" form.
-				 * Abstracting this code into our Action Filter will also allow us to remove the repetitive session checking code from our Action Methods (EmploymentController.cs, ProductsController.cs, VehicleController.cs, etc.)
+		/*
+		 * Three main steps:
+		 * The first issue we want to solve is to check whether the user has an active session(which is set in our Action Method the first time they save anything to the database for the "Get a Quote" form.
+		 * Abstracting this code into our Action Filter will also allow us to remove the repetitive session checking code from our Action Methods (EmploymentController.cs, ProductsController.cs, VehicleController.cs, etc.)
 		*/
 
 		public void OnActionExecuting(ActionExecutingContext filterContext)
@@ -63,7 +65,7 @@ namespace Paladin.Infrastructure
 					// If the MinRequiredStage is higher than the saved value, that means that they have not completed the pages necessary up until that point to get here, so we need to redirect them. 
 					if (MinRequiredStage > _highestCompletedStage)
 					{
-						// to handle redirecting to the right page, we use this switch statement which just checks what the highest page the user has completed and redirects appropriately.
+						// To handle redirecting to the right page, we use this switch statement which just checks what the highest page the user has completed and redirects appropriately.
 						// TODO: in real-world project this should be more dynamic, ie. customizing the routing engine to redirect to the right page based on the value
 						switch (_highestCompletedStage)
 						{
@@ -91,28 +93,29 @@ namespace Paladin.Infrastructure
 					}
 				}
 			}
-			//	If a value is NOT set, we want to redirect the user back to the first page because this is probably implies that they didn't start the "Get a Quote" workflow correctly, or they're trying to skip ahead to a page that they shouldn't be able to access yet. 
+			// If a value is NOT set, we want to redirect the user back to the first page because this is probably implies that they didn't start the "Get a Quote" workflow correctly, or they're trying to skip ahead to a page that they shouldn't be able to access yet. 
 			else
 			{
-				//			We are also checking here that they aren't currently on the first page, otherwise we will get into a redirect loop which will cause problems in the browser. 
+				// We are also checking here that they aren't currently on the first page, otherwise we will get into a redirect loop which will cause problems in the browser. 
 				if (CurrentStage != (int)WorkflowValues.ApplicantInfo)
 				{
-					// the most interesting line of code here is where we assign the RedirectToRouteResult property of this filterContext object. The Result property is actually an ActionResult type, so by assigning it here the final result of our Action Method will now be a redirect. This is where we can really take control of our application flow. 
+					// The most interesting line of code here is where we assign the RedirectToRouteResult property of this filterContext object. The Result property is actually an ActionResult type, so by assigning it here the final result of our Action Method will now be a redirect. This is where we can really take control of our application flow. 
 					filterContext.Result = GenerateRedirectUrl("ApplicantInfo", "Applicant");
 				}
 			}
 		}
 
-		//	The GenerateRedirectUrl method is mostly just a syntactical helper that will make our code more readable when we're doing these redirects. All it does is just return a new RedirectToRouteResult with the values that we passed in, so that we don't have to manually create this every time. 
+		// The GenerateRedirectUrl method is mostly just a syntactical helper that will make our code more readable when we're doing these redirects. All it does is just return a new RedirectToRouteResult with the values that we passed in, so that we don't have to manually create this every time. 
 		private RedirectToRouteResult GenerateRedirectUrl(string action, string controller)
 		{
 			return new RedirectToRouteResult(new RouteValueDictionary(new { action = action, controller = controller }));
 		}
 
 
-		/*		We repeat some things from the custom OnActionExecuting method above because it is possible that the session variable, or even the context class, could change or be newly assigned in the logic of the Action Method, which runs between these two methods.
-
-				* For example, on the first page, the "tracker" variable does not exist yet in the OnActionExecuting method.Once it's assigned inside of the Action Method, it does exist by the time this OnActionExecuted method runs.*/
+		/*
+		 * We repeat some things from the custom OnActionExecuting method above because it is possible that the session variable, or even the context class, could change or be newly assigned in the logic of the Action Method, which runs between these two methods.
+		 * For example, on the first page, the "tracker" variable does not exist yet in the OnActionExecuting method.Once it's assigned inside of the Action Method, it does exist by the time this OnActionExecuted method runs.
+		 * */
 
 
 		public void OnActionExecuted(ActionExecutedContext filterContext)
@@ -124,10 +127,10 @@ namespace Paladin.Infrastructure
 				Guid tracker;
 
 
-				/*				*This code inside the TryParse condition is what updates the database with the user's new workflow status.
-							   * We only want to do this when they're saving a new form, so first we check if the request is a post, since those are the requests that will send data back.
-							   * We also want to make sure that the value we're saving is equal to or greater than the one that's already saved(because we don't want to save the current workflow value if the user is simply returning to an earlier page to change what they previously entered. We only want update the database with the highest stage that they have ever completed in this process. 
-
+				/*
+				 * This code inside the TryParse condition is what updates the database with the user's new workflow status.
+				 * We only want to do this when they're saving a new form, so first we check if the request is a post, since those are the requests that will send data back.
+				 * We also want to make sure that the value we're saving is equal to or greater than the one that's already saved(because we don't want to save the current workflow value if the user is simply returning to an earlier page to change what they previously entered. We only want update the database with the highest stage that they have ever completed in this process. 
 				*/
 				if (Guid.TryParse(sessionId.ToString(), out tracker))
 				{

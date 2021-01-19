@@ -96,48 +96,67 @@ namespace Paladin.Controllers
  * Extension Point: HTML Helpers
  * Benefit: Create cleaner and simpler Razor views
  * (Keeping Your Razor Code Clean with HTML Helpers)
+ * Summary:
+ * MVC provides multiple options for writing cleaner Razor code
+ * Inline Razor Helpers use friendly syntax and reduce code, but are not very reusable
+ * Custom Html Helpers can include C# logic and can be reused across multiple views
+ * Html Helper code should be mostly limited to display logic
  */
 
 /* Extension Point 4
  * Extension Point: Razor View Engine
  * Benefit: Theme support, custom directory naming
  * (Enabling Theme Support with a Custom View Engine)
+ * Summary:
+ *
  */
 
 /* Extension Point 5
  * Extension Point: Exception Filters
  * Benefit: Simplify exception handling
  * (Improving Error Handling with Custom Exception Filters)
+ * Summary:
+ *
  */
 
 /* Extension Point 6
  * Extension Point: Validation
  * Benefit: Simplify cross-property and conditional validation
  * (Extending Validation to Improve Data Integrity)
+ * Summary:
+ *
  */
 
 /* Extension Point 7
  * Extension Point: Model Binding
  * Benefit: Expand the binding process to handle new data types
  * (Extending Data Binding with Custom Model Binders)
+ * Summary:
+ *
  */
 
 /* Extension Point 8
  * Extension Point: Value Providers
  * Benefit: Limit or increase the data available for Model Binding
  * (Improving Data Availability with Custom Value Providers)
+ * Summary:
+ *
  */
 
 /* Extension Point 9
  * Extension Point: Authentication Filters
  * Benefit: Customize access control
  * (Customizing Security Using Authentication Filters)
+ * Summary:
+ *
  */
 
 /* Extension Point 10
  * Extension Point: Action Selectors
  * Benefit: Influence the Action Method Selection Process
  * (Influencing Action Method Execution Using Custom Selectors)
+ * Summary:
+ *
  */
 
 
