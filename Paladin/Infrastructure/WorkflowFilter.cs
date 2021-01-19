@@ -27,10 +27,13 @@ using Paladin.Models;
 namespace Paladin.Infrastructure
 {
 	public class WorkflowFilter : FilterAttribute, IActionFilter
-	{
-		private int _highestCompletedStage; // stores the value we pull from the database which will tell us the highest completed workflow stage for the current user session
-		public int MinRequiredStage { get; set; } // public properties on Action Filters can be easily set from our controllers, so we can define a unique value in our Action Filter for every stage in our workflow
-		public int CurrentStage { get; set; } // this property will define the value of the workflow stage that the user is currently trying to access, so if they complete this page THIS is the new value that will be assigned to them in the database to mark their status in the workflow.
+	{ 
+		// stores the value we pull from the database which will tell us the highest completed workflow stage for the current user session
+		private int _highestCompletedStage;
+		// public properties on Action Filters can be easily set from our controllers, so we can define a unique value in our Action Filter for every stage in our workflow
+		public int MinRequiredStage { get; set; }
+		// this property will define the value of the workflow stage that the user is currently trying to access, so if they complete this page THIS is the new value that will be assigned to them in the database to mark their status in the workflow.
+		public int CurrentStage { get; set; } 
 
 
 		/*
@@ -59,22 +62,26 @@ namespace Paladin.Infrastructure
 					if (MinRequiredStage > _highestCompletedStage)
 					{
 						// to handle redirecting to the right page, we use this switch statement which just checks what the highest page the user has completed and redirects appropriately.
-
-						switch (_highestCompletedStage) // TODO: in real-world project this should be more dynamic, ie. customizing the routing engine to redirect to the right page based on the value
+						// TODO: in real-world project this should be more dynamic, ie. customizing the routing engine to redirect to the right page based on the value
+						switch (_highestCompletedStage)
 						{
 							case (int)WorkflowValues.ApplicantInfo:
 								filterContext.Result = GenerateRedirectUrl("ApplicantInfo", "Applicant");
 								break;
+
 							case (int)WorkflowValues.AddressInfo:
 								filterContext.Result = GenerateRedirectUrl("AddressInfo", "Address");
 								break;
+
 							case (int)WorkflowValues.EmploymentInfo:
 								filterContext.Result = GenerateRedirectUrl("EmploymentInfo", "Employment");
 								break;
+
 							case (int)WorkflowValues.VehicleInfo:
 								filterContext.Result = GenerateRedirectUrl("VehicleInfo", "Vehicle");
 								break;
-							case (int)WorkflowValues.Products:
+
+							case (int)WorkflowValues.ProductInfo:
 								filterContext.Result = GenerateRedirectUrl("ProductInfo", "Products");
 								break;
 						}
@@ -86,7 +93,7 @@ namespace Paladin.Infrastructure
 			else
 			{
 				/* We are also checking here that they aren't currently on the first page, otherwise we will get into a redirect loop which will cause problems in the browser. */
-				if (CurrentStage != (int) WorkflowValues.ApplicantInfo)
+				if (CurrentStage != (int)WorkflowValues.ApplicantInfo)
 				{
 					// the most interesting line of code here is where we assign the RedirectToRouteResult property of this filterContext object. The Result property is actually an ActionResult type, so by assigning it here the final result of our Action Method will now be a redirect. This is where we can really take control of our application flow. 
 					filterContext.Result = GenerateRedirectUrl("ApplicantInfo", "Applicant");

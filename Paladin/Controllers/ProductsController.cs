@@ -16,7 +16,7 @@ namespace Paladin.Controllers
 	*/
 	[WorkflowFilter(
 		MinRequiredStage = (int)WorkflowValues.VehicleInfo,
-		CurrentStage = (int)WorkflowValues.Products)]
+		CurrentStage = (int)WorkflowValues.ProductInfo)]
 
 
     public class ProductsController : Controller

@@ -51,17 +51,18 @@ namespace Paladin.Controllers
 
         public ActionResult ProgressBar(int currentStage)
         {
-            if (Session["Tracker"] != null)
-            {
-                Guid tracker = (Guid)Session["Tracker"];
-                var highestStage = _context.Applicants.FirstOrDefault(x => x.ApplicantTracker == tracker).WorkFlowStage;
-                return PartialView(new Progress { CurrentStage = currentStage, HighestStage = highestStage });
-            }
-            else
-            {
-                return PartialView(new Progress { CurrentStage = 10, HighestStage = 10 });
-            }
-            return PartialView();
+	        if (Session["Tracker"] != null) // Have they started the workflow?
+	        {
+		        Guid tracker;
+		        if (Guid.TryParse(Session["Tracker"].ToString(), out tracker))
+		        {
+			        var highestStage = _context.Applicants.FirstOrDefault(x => x.ApplicantTracker == tracker)
+				        .WorkFlowStage;
+			        return PartialView(new Progress {CurrentStage = currentStage, HighestStage = highestStage});
+		        }
+	        }
+            //If not, show the first page
+	        return PartialView(new Progress { CurrentStage = 10, HighestStage = 10 });
         }
     }
 }
