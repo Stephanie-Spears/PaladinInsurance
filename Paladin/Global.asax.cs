@@ -18,9 +18,13 @@ namespace Paladin
 	{
 		protected void Application_Start()
 		{
+			// First we are grabbing the value of our active theme from the Web.config settings
 			if (!string.IsNullOrEmpty(ConfigurationManager.AppSettings["ActiveTheme"]))
 			{
+				// If it isn't empty, then we want it to register our ThemeViewEngine and pass in the name of that active theme.
 				var activeTheme = ConfigurationManager.AppSettings["ActiveTheme"];
+
+				// Notice that we're using the Insert method to add our ViewEngine to the collection, not the Add method. MVC can have multiple ViewEngines registered at the same time, but if we use the Insert method, that allows us to specify an index, which we can set to 0, and that means that our ViewEngine will be evaluated first.
 				ViewEngines.Engines.Insert(0, new ThemeViewEngine(activeTheme));
 			};
 

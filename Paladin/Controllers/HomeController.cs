@@ -108,7 +108,10 @@ namespace Paladin.Controllers
  * Benefit: Theme support, custom directory naming
  * (Enabling Theme Support with a Custom View Engine)
  * Summary:
- *
+ * Use a custom View Engine to extend view selection functionality
+ * Themes provide a dynamic way to manage different design templates
+ * You can change where and how Razor selects a template file by modifying the View Engine's search locations
+ * MVC supports multiple View Engines
  */
 
 /* Extension Point 5
