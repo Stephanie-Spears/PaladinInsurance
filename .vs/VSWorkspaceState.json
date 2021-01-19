@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Paladin",
+    "\\Paladin\\App_Data",
+    "\\Paladin\\Controllers",
+    "\\Paladin\\Infrastructure",
+    "\\Paladin\\Views",
+    "\\Paladin\\Views\\Shared"
   ],
-  "SelectedNode": "\\Paladin.sln",
+  "SelectedNode": "\\Paladin\\Controllers\\ProductsController.cs",
   "PreviewInSolutionExplorer": false
 }
