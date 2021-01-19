@@ -11,6 +11,14 @@ using System.Web.Mvc;
 
 namespace Paladin.Controllers
 {
+	/*
+	 * Adding our custom filter at the class level.
+	 */
+	[WorkflowFilter(
+		MinRequiredStage = (int)WorkflowValues.EmploymentInfo,
+		CurrentStage = (int)WorkflowValues.VehicleInfo)]
+
+
     public class VehicleController : Controller
     {
         private PaladinDbContext _context;

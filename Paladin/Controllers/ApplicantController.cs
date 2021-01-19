@@ -11,6 +11,16 @@ using Paladin.Infrastructure;
 
 namespace Paladin.Controllers
 {
+	/*
+	 * Adding our custom filter at the class level.
+	 * We are passing in values for the MinRequiredStage and the CurrentStage using our enum.
+	 * Since this is the first page, the MinRequiredStage is going to be 0, or the "Begin" status.
+	 * The CurrentStage is the value that will be saved into the database once the form has been posted, so we want to set that to the matching ApplicantInfo stage in this case.
+	 */
+    [WorkflowFilter(
+	    MinRequiredStage = (int)WorkflowValues.Begin,
+	    CurrentStage = (int)WorkflowValues.ApplicantInfo)]
+
     public class ApplicantController : Controller
     {
         private PaladinDbContext _context;

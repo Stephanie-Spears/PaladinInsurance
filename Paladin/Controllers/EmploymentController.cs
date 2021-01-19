@@ -11,6 +11,13 @@ using Paladin.Infrastructure;
 
 namespace Paladin.Controllers
 {
+	/*
+	 * Adding our custom filter at the class level.
+	 */
+	[WorkflowFilter(
+		MinRequiredStage = (int)WorkflowValues.AddressInfo,
+		CurrentStage = (int)WorkflowValues.EmploymentInfo)]
+
     public class EmploymentController : Controller
     {
         private PaladinDbContext _context;

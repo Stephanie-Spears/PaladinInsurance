@@ -5,6 +5,12 @@ using System.Web;
 using System.Web.Mvc;
 using System.Xml.Serialization;
 
+/* Extension Point 1
+ * Extension Point: Action Results
+ * Benefit: Add efficiency to response handling, improve Action Method code
+ * (Improving Application Responses with Custom Action Results)
+ */
+
 namespace Paladin.Infrastructure
 {
     public class XMLResult : ActionResult
