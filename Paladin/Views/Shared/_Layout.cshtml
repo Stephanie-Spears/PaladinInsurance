@@ -94,12 +94,15 @@
 	<!-- jQuery -->
 	<!-- Bootstrap Core JavaScript -->
 	<script src="~/Scripts/jquery-1.10.2.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+	<script src="~/Scripts/bootstrap.min.js"></script>
 	<script src="~/Scripts/jquery-ui-1.11.4.min.js"></script>
 	<script src="~/Scripts/jquery.validate.min.js"></script>
 	<script>
 		$(function () {
-			$(".datepicker").datepicker();
+			$(".datepicker").datepicker({
+				yearRange: '-100:+0',
+				changeYear: true
+			});
 
 			$(".datepicker-alt").datepicker();
 

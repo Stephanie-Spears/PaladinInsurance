@@ -130,7 +130,12 @@ namespace Paladin.Controllers
  * Benefit: Simplify cross-property and conditional validation
  * (Extending Validation to Improve Data Integrity)
  * Summary:
- *
+ * There are two methods of applying validation logic in MVC. The first is by using data attributes which can be applied to class properties to enforce certain rules or values. These attributes will automatically be consumed and applied by the framework. Default Validation Attributes: [Required] [Range] [StringLength] [Regular Expression] [Not Null], etc. 
+ * The second method of applying validation logic in MVC is to implement an interface on your model which is called IValidatableObject. This interface allows you to add logic to your model to determine whether it contains valid data. This interface exposes a method called "Validate" which offers a lot of power. The method returns a list of validation results that will be consumed by MVC, so you can write as many different rules and conditionals inside of it as you want.
+ * Both of these techniques have pros and cons:
+ * The main benefit of using attributes is that they're reusable across multiple properties and different models, and they keep logic out of your models and controllers. They also allow for inheritance from existing validation attributes, which can be useful and save some time. The con is that the cross-property validation can be annoying to read and write, especially when you're working with ViewModels that might contain several complex nested properties. This might require you to use techniques like reflection to find various properties on other objects, which can become difficult to read and keep track of.
+ * The main advantage of using the interface is that it provides an easier solution to the cross-property validation issue. However, this technique implies that your model now contain logic, which is usually not ideal. The interface also does not lend itself that well to reusability.
+ * By default model validation is handled during the model binding process. When MVC goes to bind request data to your classes, it runs the applied validation attributes to check if the data is correct. If the model implements the IValidatableObject interface, this will be called afterward, but only if all of the attributes return valid. Essentially it's making sure that the properties are each individually valid before it tries to do cross-property or model-level validation. The combined results of this process are stored in the controller's ModelState property.
  */
 
 /* Extension Point 7
@@ -138,7 +143,7 @@ namespace Paladin.Controllers
  * Benefit: Expand the binding process to handle new data types
  * (Extending Data Binding with Custom Model Binders)
  * Summary:
- *
+ * 
  */
 
 /* Extension Point 8
@@ -146,7 +151,7 @@ namespace Paladin.Controllers
  * Benefit: Limit or increase the data available for Model Binding
  * (Improving Data Availability with Custom Value Providers)
  * Summary:
- *
+ * 
  */
 
 /* Extension Point 9
@@ -154,7 +159,7 @@ namespace Paladin.Controllers
  * Benefit: Customize access control
  * (Customizing Security Using Authentication Filters)
  * Summary:
- *
+ * 
  */
 
 /* Extension Point 10
@@ -162,7 +167,7 @@ namespace Paladin.Controllers
  * Benefit: Influence the Action Method Selection Process
  * (Influencing Action Method Execution Using Custom Selectors)
  * Summary:
- *
+ * 
  */
 
 

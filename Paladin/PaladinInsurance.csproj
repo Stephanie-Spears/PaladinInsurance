@@ -150,6 +150,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Infrastructure\BirthdateValidator.cs" />
     <Compile Include="Infrastructure\ExceptionLoggingFilter.cs" />
     <Compile Include="Infrastructure\RazorWorkflowExtensions.cs" />
     <Compile Include="Infrastructure\ThemeViewEngine.cs" />
@@ -170,6 +171,7 @@
     <Compile Include="ViewModels\AddressVM.cs" />
     <Compile Include="ViewModels\ApplicantVM.cs" />
     <Compile Include="ViewModels\Employments.cs" />
+    <Compile Include="ViewModels\EmploymentSummary.cs" />
     <Compile Include="ViewModels\EmploymentVM.cs" />
     <Compile Include="ViewModels\ProductsVM.cs" />
     <Compile Include="ViewModels\VehicleVM.cs" />

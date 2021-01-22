@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
+using Paladin.Infrastructure;
 
 namespace Paladin.ViewModels
 {
@@ -16,6 +17,7 @@ namespace Paladin.ViewModels
 		[Display(Name = "Last Name")]
 		public string LastName { get; set; }
 		[Required]
+		[BirthdateValidator]
 		[Display(Name = "Date of Birth")]
 		public DateTime? Dob { get; set; }
 		[Required]
