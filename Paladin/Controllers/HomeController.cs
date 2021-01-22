@@ -152,7 +152,10 @@ namespace Paladin.Controllers
  * Benefit: Limit or increase the data available for Model Binding
  * (Improving Data Availability with Custom Value Providers)
  * Summary:
- * 
+ * Value Providers supply data to the Model Binders
+ * You can build your own custom provider by using the IValueProvider interface
+ * Value Providers are supplied to the Model Binder using Value Provider Factories, which can also run logic to see if a Value Provider is a good candidate for the current request.
+ * Value Providers are  Competitive Service, meaning that the order in which they're registered can affect the binding outcome.
  */
 
 /* Extension Point 9

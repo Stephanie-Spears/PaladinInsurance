@@ -28,9 +28,11 @@ namespace Paladin
 				ViewEngines.Engines.Insert(0, new ThemeViewEngine(activeTheme));
 			};
 
-
 			// When implementing a custom ModelBinderProvider we have to register it with our application. By using Insert and specifying the 0 index, we can be sure that our binder will be evaluated first. This way for XML requests, our binder will always be chosen, and if it's not an XML request, it will never be chosen. 
 			ModelBinderProviders.BinderProviders.Insert(0, new XMLModelBinderProvider());
+
+
+			ValueProviderFactories.Factories.Insert(0, new HttpValueProviderFactory());
 
 			AreaRegistration.RegisterAllAreas();
 			FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
