@@ -46,6 +46,8 @@ namespace Paladin
 			Mapper.CreateMap<Products, ProductsVM>();
 		}
 
+
+		// Global Application Error Handler Method
 		void Application_Error()
 		{
 			Debug.WriteLine("test");

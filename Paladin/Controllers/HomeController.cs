@@ -119,7 +119,10 @@ namespace Paladin.Controllers
  * Benefit: Simplify exception handling
  * (Improving Error Handling with Custom Exception Filters)
  * Summary:
- *
+ * Exception Filters provide flexibility for error handling
+ * Can handle errors in the scope of Action Method execution - these filters can handle errors within the scope of Action Filters, Methods, and Action Results. 
+ * Provide access to more contextual framework information - they execute within the context of MVC, and not at the main application level, which gives them access to additional useful information
+ * Global error handling should still be used as a fallback - because they cannot handle errors that occur outside of the controllers, you should still have an additional fallback plan for other types of exceptions
  */
 
 /* Extension Point 6
