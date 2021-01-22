@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -54,8 +53,7 @@ namespace Paladin.Infrastructure
 			//	If a value is set, we want to make sure that it can be parsed into a guid.
 			if (applicantId != null)
 			{
-				Guid tracker;
-				if (Guid.TryParse(applicantId.ToString(), out tracker))
+				if (Guid.TryParse(applicantId.ToString(), out Guid tracker))
 				{
 					// The next thing that we want to enforce within our OnActionExecuting section is that the user has completed the minimum required workflow stage to get to this new current page that they're trying to access. To do this, we will need to check the database. 
 					// All this is doing is retrieving the saved workflow value from the database for the current session, and then assigning it to the _highestCompletedStage field
@@ -124,15 +122,12 @@ namespace Paladin.Infrastructure
 			var sessionId = HttpContext.Current.Session["Tracker"];
 			if (sessionId != null)
 			{
-				Guid tracker;
-
-
 				/*
 				 * This code inside the TryParse condition is what updates the database with the user's new workflow status.
 				 * We only want to do this when they're saving a new form, so first we check if the request is a post, since those are the requests that will send data back.
 				 * We also want to make sure that the value we're saving is equal to or greater than the one that's already saved(because we don't want to save the current workflow value if the user is simply returning to an earlier page to change what they previously entered. We only want update the database with the highest stage that they have ever completed in this process. 
 				*/
-				if (Guid.TryParse(sessionId.ToString(), out tracker))
+				if (Guid.TryParse(sessionId.ToString(), out Guid tracker))
 				{
 					if (filterContext.HttpContext.Request.RequestType == "POST" && CurrentStage >= _highestCompletedStage)
 					{

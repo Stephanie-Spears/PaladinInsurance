@@ -15,8 +15,7 @@ namespace Paladin.Infrastructure
 
 		public override bool IsValid(object value)
 		{
-			DateTime enteredDate;
-			if (DateTime.TryParse(value.ToString(), out enteredDate))
+			if (DateTime.TryParse(value.ToString(), out DateTime enteredDate))
 			{
 				if (enteredDate > DateTime.Now.AddYears(-18))
 				{

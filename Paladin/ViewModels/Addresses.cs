@@ -1,10 +1,4 @@
-﻿using Paladin.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-namespace Paladin.ViewModels
+﻿namespace Paladin.ViewModels
 {
 	public class Addresses
 	{
