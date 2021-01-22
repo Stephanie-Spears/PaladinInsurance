@@ -141,7 +141,10 @@ namespace Paladin.Controllers
  * Benefit: Expand the binding process to handle new data types
  * (Extending Data Binding with Custom Model Binders)
  * Summary:
- * 
+ * Custom Model Binders can extend or replace the data binding functionality for action methods
+ * Model binders must implement the IModelBinder interface, and generally also take care of handling validation.
+ * Model Binder Providers can be used to determine which Model Binder should be used for a given action method parameter
+ * The first Model Binder that's able to the request will be chosen, and the others will be ignored, so be mindful of the registration order in Global.asax
  */
 
 /* Extension Point 8

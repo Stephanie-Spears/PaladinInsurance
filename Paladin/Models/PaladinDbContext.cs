@@ -16,6 +16,8 @@ namespace Paladin.Models
 		public DbSet<Products> Products { get; set; }
 		public DbSet<Address> Addresses { get; set; }
 		public DbSet<ErrorLog> Errors { get; set; }
+		public DbSet<EWeeklyReport> WeeklyReports { get; set; }
+		public DbSet<EMonthlyReport> MonthlyReports { get; set; }
 	}
 
 	public class PaladinInitializer : DropCreateDatabaseIfModelChanges<PaladinDbContext>
